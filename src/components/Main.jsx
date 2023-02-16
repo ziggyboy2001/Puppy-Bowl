@@ -5,7 +5,8 @@ const Main = () => {
     return(
         <div id="main">
             <Navbar />
-        <Dogs/>
+        <Dogs />
+
         </div>
     )
 }

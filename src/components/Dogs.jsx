@@ -22,6 +22,15 @@ console.log(players)
     return (
         <div>
             I am the dog component
+            <table>
+
+<td>ID: </td>
+<td>Name: </td>
+<td>Breed: </td>
+<td>Status:</td>
+<td>*Image*</td>
+<button>More Info</button>
+</table>
         </div>
     );
 }

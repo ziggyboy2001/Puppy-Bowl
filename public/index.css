@@ -11,3 +11,15 @@ body {
     max-height: 10%;
     min-height: 40px;
 }
+table{
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgb(107, 106, 106);
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+    padding: 1rem;
+    margin: 2rem;
+}
+#dogs{
+    border: 1px solid black;
+}
