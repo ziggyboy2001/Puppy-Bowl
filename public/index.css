@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(37, 37, 37);
 }
 
 #navbar {
@@ -23,24 +24,58 @@ table{
 #dogs{
     border: 1px solid black;
 }
-.cards{
-    border: 1px solid black;
-    border-radius: 15px;
+.eachCard{
     display: flex;
     flex-wrap: wrap;
+    width: 500px;
+}
+.cards{
+    box-shadow: 0px 0px 10px rgb(111, 111, 111);
+    border-radius: 15px;
     height: 400px;
     width: 300px;
     padding: 1rem;
     margin: 2rem;
+    color: rgb(178, 178, 178);
+    font-family: Arial, Helvetica, sans-serif;
 }
-.cards:nth-child(2){
-    float: right;
-}
+
 .image{
     height: 250px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(111, 111, 111);
+    border: 1px solid black;
 }
-button{
+.btn{
+
+    color: rgb(178, 178, 178);
+    text-decoration: none;
     height: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(111, 111, 111);
+
+}
+.btn:active{
+    box-shadow: none;
+}
+.aboutCard{
+color: aliceblue;
+
+box-shadow: 0px 0px 10px rgb(111, 111, 111);
+border-radius: 15px;
+width: 300px;
+text-align: center;
+}
+.aboutCardImg{
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgb(111, 111, 111);
+
 }

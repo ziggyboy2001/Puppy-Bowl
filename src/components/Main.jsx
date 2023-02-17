@@ -1,5 +1,7 @@
 import {React, useState, useEffect} from "react";
 import { Navbar, Dogs, About } from "./";
+import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+
 
 
 const Main = () => {
@@ -22,11 +24,19 @@ useEffect(() => {
 
 },[])
 
+
     return(
+        
         <div id="main">
             <Navbar />
-        <Dogs players={players}/>
 
+        <BrowserRouter>
+        <Routes>
+            <Route path='/' element={<Dogs players={players} />} />
+            <Route path='/about' element={<About players={players}/>} />
+            <Route path=':id' element={<About players={players} />} />
+            </Routes>
+            </BrowserRouter>
         </div>
     )
 }
