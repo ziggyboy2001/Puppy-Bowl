@@ -11,6 +11,7 @@ body {
     max-height: 10%;
     min-height: 40px;
 }
+
 table{
     border: 1px solid black;
     box-shadow: 0px 0px 10px rgb(107, 106, 106);
@@ -20,9 +21,11 @@ table{
     padding: 1rem;
     margin: 2rem;
 }
+
 #dogs{
     border: 1px solid black;
 }
+
 .cards{
     border: 1px solid black;
     border-radius: 15px;
@@ -33,14 +36,17 @@ table{
     padding: 1rem;
     margin: 2rem;
 }
+
 .cards:nth-child(2){
     float: right;
 }
+
 .image{
     height: 250px;
     display: flex;
     justify-content: center;
 }
+
 button{
     height: 20px;
 }
