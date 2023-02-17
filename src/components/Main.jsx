@@ -1,5 +1,5 @@
 import {React, useState, useEffect} from "react";
-import { Navbar, Dogs } from "./";
+import { Navbar, Dogs, About } from "./";
 
 
 const Main = () => {

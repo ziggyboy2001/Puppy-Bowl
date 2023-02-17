@@ -33,8 +33,14 @@ table{
     padding: 1rem;
     margin: 2rem;
 }
+.cards:nth-child(2){
+    float: right;
+}
 .image{
     height: 250px;
     display: flex;
     justify-content: center;
+}
+button{
+    height: 20px;
 }
