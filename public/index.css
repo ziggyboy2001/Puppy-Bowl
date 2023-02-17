@@ -23,3 +23,18 @@ table{
 #dogs{
     border: 1px solid black;
 }
+.cards{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 300px;
+    padding: 1rem;
+    margin: 2rem;
+}
+.image{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
