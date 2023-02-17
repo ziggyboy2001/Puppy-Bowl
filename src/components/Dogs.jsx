@@ -14,7 +14,7 @@ console.log(props)
                 <p className='idNumber'>{puppy.id}</p>
 
                 <p><img className="image" src={puppy.imageUrl} /></p>
-                <Link to='/about' className='btn'>About {puppy.name}</Link>
+                <Link to=':id' className='btn'>About {puppy.name}</Link>
                 </div>
             </div>
         })

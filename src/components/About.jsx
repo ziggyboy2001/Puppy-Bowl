@@ -24,14 +24,13 @@ const About = () => {
     return (
         <div>
             <h1>I am the about page</h1>
-            <div className="aboutCard">
+            <div className="aboutCard" >
             <p>{player.name}</p>
             <p>{player.id}</p>
             <p>{player.status}</p>
             <p><img className="aboutCardImg" src={player.imageUrl} /></p>
             </div>
             <Link to='/' className='btn2'>HOME</Link>
-
         </div>
         
     )

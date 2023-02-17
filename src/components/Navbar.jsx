@@ -3,7 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <div id="navbar">
-      <h2> I am navbar</h2>
+      <h2>Search</h2>
+      <input className="searchInput"
+        type="text"
+        placeholder="Search"
+      />
     </div>
   );
 };

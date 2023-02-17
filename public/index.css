@@ -48,6 +48,7 @@ table{
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgb(111, 111, 111);
     border: 1px solid black;
+    
 }
 .btn{
 
@@ -78,4 +79,12 @@ text-align: center;
     border: 1px solid black;
     box-shadow: 0px 0px 10px rgb(111, 111, 111);
 
+}
+.searchInput{
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin-left: 10px;
+}
+.idNumber{
+    text-align: right;
 }
